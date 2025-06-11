@@ -78,13 +78,18 @@ header {
 }
 
 .link-Comp {
+    background-color: inherit;
+    border-style: none;
     margin-left: 30px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 
 .botao-Comp {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 20px;
     padding: 10px;
@@ -119,19 +124,23 @@ header {
     color: white;
 }
 
+.inativo {
+    display: none;
+}
+
 /* Main */
+
 main {
-   
-    background-color: #efab1a; 
     min-height: calc(100vh - 200px);
-    
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    padding: 20px; 
     flex-direction: column; 
 }
 
+#main-inscricao {
+    background-color: #efab1a;
+}
 
 #regras {
     padding-top: 40px;
@@ -228,8 +237,6 @@ footer {
         padding: 40px;
     }
 }
-
-
 
 .forms {
     display: flex;

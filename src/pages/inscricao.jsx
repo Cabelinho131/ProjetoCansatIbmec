@@ -6,10 +6,10 @@ import Formulario from "../components/Formulario";
     return (
       <>
         <Navbar />
-        <main>
-                <h1>Página de Inscrição</h1>
-                <p>Preencha o formulário abaixo para se inscrever e gerar seu comprovante em PDF.</p>
-                <Formulario /> 
+        <main id="inscricao">
+          <h1>Página de Inscrição</h1>
+          <p>Preencha o formulário abaixo para se inscrever e gerar seu comprovante em PDF.</p>
+          <Formulario />
         </main>
         <Footer />
       </>
